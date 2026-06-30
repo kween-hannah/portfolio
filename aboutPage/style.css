@@ -5,9 +5,10 @@
 }
 
 body {
-    background: #fffdf9; 
+    background: linear-gradient(135deg, #fffdf9 0%, #f4eae1 100%);
     font-family: Georgia, serif;
 }
+
 
 nav {
     background: #ffffff;
@@ -141,7 +142,7 @@ nav h2 {
 }
 
 .royal-frame img {
-    width: 100%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
 }
@@ -200,4 +201,12 @@ nav h2 {
     font-size: 16px;
     line-height: 1.5;
     color: #555;
+}
+
+
+.about-hero, .nav-bar, fieldset, .card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 175, 55, 0.2); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
 }
