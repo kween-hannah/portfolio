@@ -8,7 +8,8 @@
     <title> Queen Iyanu Portfolio</title>
     <!-- Link to an external CSS file for styling -->
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+
+    <script src="contact.js" defer></script>
 
 
 </head>
@@ -18,9 +19,11 @@
 
     <nav class="nav-bar">
         <a href="index.html" id="home">Home</a>
-        <a href="../aboutPage/about.html" id="about-me">About Me</a>
-        <a href="../projects/project.html" id="projects">Projects</a>
-        <a href="../contactPage/contact.html" id="contact">Contact</a>
+        <a href="#aboutMe" id="about-me">About Me</a>
+        <a href="#projectS" id="projects">Projects</a>
+        <a href="#goals" id="goalsL">Goals</a>
+        <a href="#resume" id="resumeL">Resume</a>
+        <a href="#contactS" id="contact">Contact</a>
     </nav>
 
 
@@ -29,7 +32,7 @@
             <h1>Queen Iyanu Portfolio</h1>
             <p>Hello My Name Is Iyanu. Welcome to my portfolio website. here you can learn about me, my projects, experiences and goals.</p>
             <div class="crown">👑</div>
-            <a class="royal-btn" href="../projects/project.html">Explore my work</a>
+            <a class="royal-btn" href="#projectS">Explore my work</a>
         </section>
 
 
@@ -37,9 +40,153 @@
             <h1></h1>
         </section>
     </main>
+<hr>
+<section id="aboutMe">
+    <div class="about-container">
+        <section class="about-hero">
+            <div class="sparkle-badge">✨ Get To Know Me ✨</div>
+            <h1>About Me</h1>
+
+            <div class="royal-frame">
+                <img src="ML1_2034.jpg" alt="profile picture">
+            </div>
+
+            <p class="royal-bio">
+                Hello! My name Is Iyanu. I am a driven student and innovator dedicated to making a powerful impact. My
+                grand goal in life is to fully enjoy my journey, achieve ultimate success, and make my name great and my
+                generation proud.
+            </p>
 
 
-    <script src="script.js"></script>
+        </section>
+
+        <hr class="royal-divider">
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>Pharmacology & Impact</h3>
+                <p>Currently studying pharmacology at the Area 31 Career Center to earn my degree. I thrive on managing
+                    heavy projects and have already earned my official Narcan Certification to help protect and serve my
+                    community.</p>
+            </div>
+
+            <div class="about-card">
+                <h3> My Coding Journey</h3>
+                <p>Before my NexTech Internship, I had never coded in my life! This experience completely boosted my tech knowledge. I've loved discovering how to build from scratch using HTML, style designs with CSS, and add interactive features with JavaScript.</p>
+            </div>
+
+            <div class="about-card">
+                <h3> Hobbies & Happiness</h3>
+                <p>I believe in keeping life fun, energetic, and full of positive vibes! One of my absolute favorite escapes is running because it completely clears my mind, lifts my mood when I am feeling down, and gives me a perfect happy feeling. I also love expressing my creative side through singing, bringing out my bright and cheerful energy by playing around with kids, testing out new recipes when I cook, and making sure I get my well-deserved rest by sleeping. 
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="projectS">
+<div class="projects-container">
+    <header class="projects-header">
+      <h1>Projects</h1>
+      <p>Explore a selection of my projects, showcasing my skills, creativity, and dedication to making a positive
+        impact.</p>
+    </header>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <a href="https://kween-hannah.github.io/int-u3-project-23-24-starter-code/" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXqym3sCjFtXy6zhzYeOoTRudontLrcZ2Yk_U8qCmUQ&s=10"
+              alt="Senior Year Challenges.">
+          </div>
+          <div class="projects-empty">Senior Year Challenges</div>
+        </a>
+      </article>
+      <article class="project-card">
+        <a href="https://kween-hannah.github.io/int-u2-project-starter-code-1/">
+          <div class="card-image">
+            <img src="Screenshot 2026-06-26 141035.png" alt="Save Our Forests.">
+          </div>
+          <div class="projects-empty">save our forests</div>
+        </a>
+      </article>
+  
+    </div>
+  </div>
+<hr>
+<section id="goals" class="goals-container">
+    <header class="goals-header">
+        <div class="sparkle-badge">✨ My Goals ✨</div>
+        <h1>My Future Plans</h1>
+    </header>
+
+    <div class="timeline-card">
+        <p>
+            My main goal in life is to do great, achieve success, and make myself and my generation proud. To do this, I want to go to college and study criminal justice, political science, psychology, and law. I am deeply interested in these subjects because I want to pursue a career in these fields where I can help people, stand up for justice, and make a real difference in the world. Every step I take now is helping me prepare so that I can succeed in college and build a great life that I can be proud of.
+        </p>
+    </div>
+</section>
+<hr>
+<section id="resume" class="resume-container">
+    <header class="resume-header">
+        <div class="sparkle-badge">✨ My Background ✨</div>
+        <h1>My Resume</h1>
+        <p>A summary of my achievements, experiences, and technical skills.</p>
+    </header>
+
+    <div class="resume-frame">
+        <img src="resume.png" alt="Queen Iyanu's Professional Resume">
+    </div>
+</section>
+
+<section id="contactS">
+
+    <div class="contact-container">
+        <div class="contact-hero">
+            <h1>Let's Connect</h1>
+            <p>Have a project idea, question, or collaboration in mind? Send a message and Iyanu will get back to you
+                soon.</p>
+        </div>
+
+        <div class="contact-card">
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="reply_to" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div id="form-status" class="form-status"></div>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Phone</h3>
+                    <p>+1 (317) 607-0349</p>
+                </div>
+                <div class="info-card">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/iyanuoluwaoyatobo" target="_blank"
+                            rel="noopener">linkedin.com/in/iyanuoluwaoyatobo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+
+</section>
+    
+    </script>
    
 
 

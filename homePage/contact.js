@@ -1,4 +1,5 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
+    //alert("ks");
     emailjs.init('924XrSyc8ytopc8A0');
     const form = document.getElementById('contact-form');
     const status = document.getElementById('form-status');
